@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="portf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img class="logo" src="n-logo-no-background.png" alt="Y R C Madhav" height="45px" width="270px">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Hire Me</a></li>
+            </ul>
+            <img id="icon" src="s-logo-no-background.png">
+        </nav>
+        <div class="details">
+            <h1>I'm Y.R.C. <span>Madhav</span></h1>
+            <p>This is my official portfolio website that shows all
+                <br>Details and work experience in my carrier
+            </p>
+            <a href="http://buildit.iare.ac.in/resume/22951A6692" download>Download Resume</a>
+        </div>
+        <div class="images">
+            <img src="Logo 500x500 px.png" class="shape">
+            <img src="IMG-20210526-WA0003-removebg-preview.png" class="self">
+        </div>
+        <div class="sociallinks">
+            <a href="https://www.linkedin.com/in/madhav-yamjala-5646a0257"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto: yamjalamadhav@gmail.com"><i class="fa-brands fa-google"></i></a>
+            <a href="https://www.instagram.com/madhav_yrc/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Madhavyamjala"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+<script>
+
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")){
+            icon.src = "m-logo-no-background.png"
+        }
+        else{
+            icon.src = "s-logo-no-background.png"
+        }
+    }
+</script>
+</body>
+</html>
