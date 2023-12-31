@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Madhavyamjala
+## 👋 Hi, I’m @Madhavyamjala
 - 👀 I’m interested in Code and Robotics
 - 🌱 I’m currently learning CS
 - 💞️ I’m looking to collaborate
